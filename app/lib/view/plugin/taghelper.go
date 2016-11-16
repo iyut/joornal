@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"log"
 
-	"app/lib/view"
+	"github.com/iyut/joornal/app/lib/view"
 )
 
 // TagHelper returns a template.FuncMap

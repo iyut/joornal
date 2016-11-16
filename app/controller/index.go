@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
-	"app/lib/session"
-	"app/lib/view"
+	"github.com/iyut/joornal/app/lib/session"
+	"github.com/iyut/joornal/app/lib/view"
 )
 
 // IndexGET displays the home page

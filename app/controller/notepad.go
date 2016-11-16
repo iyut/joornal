@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"app/model"
-	"app/lib/session"
-	"app/lib/view"
+	"github.com/iyut/joornal/app/model"
+	"github.com/iyut/joornal/app/lib/session"
+	"github.com/iyut/joornal/app/lib/view"
 
 	"github.com/gorilla/context"
 	"github.com/josephspurrier/csrfbanana"

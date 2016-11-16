@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
-	"app/model"
-	"app/lib/passhash"
-	"app/lib/recaptcha"
-	"app/lib/session"
-	"app/lib/view"
+	"github.com/iyut/joornal/app/model"
+	"github.com/iyut/joornal/app/lib/passhash"
+	"github.com/iyut/joornal/app/lib/recaptcha"
+	"github.com/iyut/joornal/app/lib/session"
+	"github.com/iyut/joornal/app/lib/view"
 
 	"github.com/josephspurrier/csrfbanana"
 )

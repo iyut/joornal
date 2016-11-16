@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"app/lib/session"
+	"github.com/iyut/joornal/app/lib/session"
 )
 
 func init() {

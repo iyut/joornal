@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"app/lib/database"
+	"github.com/iyut/joornal/app/lib/database"
 
 	"gopkg.in/mgo.v2/bson"
 )

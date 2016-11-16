@@ -3,12 +3,12 @@ package route
 import (
 	"net/http"
 
-	"app/controller"
-	"app/middleware/acl"
-	hr "app/middleware/httprouterwrapper"
-	"app/middleware/logrequest"
-	"app/middleware/pprofhandler"
-	"app/lib/session"
+	"github.com/iyut/joornal/app/controller"
+	"github.com/iyut/joornal/app/middleware/acl"
+	hr "github.com/iyut/joornal/app/middleware/httprouterwrapper"
+	"github.com/iyut/joornal/app/middleware/logrequest"
+	"github.com/iyut/joornal/app/middleware/pprofhandler"
+	"github.com/iyut/joornal/app/lib/session"
 
 	"github.com/gorilla/context"
 	"github.com/josephspurrier/csrfbanana"
