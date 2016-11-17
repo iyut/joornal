@@ -51,7 +51,7 @@ func init(){
 
 func main(){
   // Load the configuration file
-  jsonparser.Load("src/config"+ string(os.PathSeparator)+"config.json", config)
+  jsonparser.Load("config"+ string(os.PathSeparator)+"config.json", config)
 
   // Session configuration
   session.Configure(config.Session)
