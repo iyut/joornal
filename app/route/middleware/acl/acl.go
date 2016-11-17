@@ -3,7 +3,7 @@ package acl
 import (
 	"net/http"
 
-	"github.com/iyut/joornal/app/lib/session"
+	"joornal/app/lib/session"
 )
 
 // DisallowAuth does not allow authenticated users to access the page

@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/iyut/joornal/app/model"
-	"github.com/iyut/joornal/app/lib/passhash"
-	"github.com/iyut/joornal/app/lib/session"
-	"github.com/iyut/joornal/app/lib/view"
+	"joornal/app/model"
+	"joornal/app/lib/passhash"
+	"joornal/app/lib/session"
+	"joornal/app/lib/view"
 
 	"github.com/gorilla/sessions"
 	"github.com/josephspurrier/csrfbanana"

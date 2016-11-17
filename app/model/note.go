@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/iyut/joornal/app/lib/database"
+	"joornal/app/lib/database"
 
 	"github.com/boltdb/bolt"
 	"gopkg.in/mgo.v2/bson"

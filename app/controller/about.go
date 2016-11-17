@@ -3,7 +3,7 @@ package controller
 import (
 	"net/http"
 
-	"github.com/iyut/joornal/app/lib/view"
+	"joornal/app/lib/view"
 )
 
 // AboutGET displays the About page
